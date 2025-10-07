@@ -36,7 +36,7 @@ function App() {
           <button type="button" onClick={() => setHide(!hide)} id="toggleButton">
             {hide ? 'Pokaż dane' : 'Ukryj dane'}
           </button>
-          <h1>Witaj w React!</h1>
+          <h1>Witaj w CV!</h1>
         </header>
 
         {!hide && (
